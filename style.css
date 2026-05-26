@@ -19,7 +19,6 @@ body {
     border-radius: 10px;
     padding: 20px 30px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    width : clamp(400px, 30vw, 700px);
     
     
 }
