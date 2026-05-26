@@ -17,8 +17,6 @@ const clear = () => {
 btn.forEach(function (button) {
     button.addEventListener('click', function () {
         let value = this.innerText;
-        if(value !== 'Undefined' && value !== 'NaN' && value !== 'Infinity'){
-        
             if (value >= '1' && value <= '9') {
                 screen.value += value;
             }
@@ -79,6 +77,5 @@ btn.forEach(function (button) {
             else if (value === '%') {
                 screen.value = Number(screen.value) / 100;
             }
-        }
     });
 });
