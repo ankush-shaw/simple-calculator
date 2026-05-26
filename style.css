@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
     padding: 20px 30px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    
+    width: 420px;
     
 }
 
@@ -80,12 +80,4 @@ input {
 
 .btn:active {
   transform: scale(0.95); /* Shrinks the button slightly */
-}
-
-@media (max-width: 786px) {
-    .container {
-        .container {
-            margin-top: 90px;
-        }
-    }
 }
